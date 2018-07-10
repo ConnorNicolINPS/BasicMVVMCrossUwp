@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-10T10:52:05.599</Modified>
+      <Modified>2018-07-10T13:15:10.323</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\MvvmCrossUWPExample.exe">
       <PackagePath>entrypoint\MvvmCrossUWPExample.exe</PackagePath>
-      <Modified>2018-07-10T10:52:05.162</Modified>
+      <Modified>2018-07-10T13:15:08.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -525,7 +525,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCrossUWPExample.Core.dll">
       <PackagePath>MvvmCrossUWPExample.Core.dll</PackagePath>
-      <Modified>2018-07-10T10:42:28.674</Modified>
+      <Modified>2018-07-10T13:15:06.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -567,15 +567,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\MvvmCrossUWPExample.xr.xml">
       <PackagePath>MvvmCrossUWPExample.xr.xml</PackagePath>
-      <Modified>2018-07-10T10:52:05.016</Modified>
+      <Modified>2018-07-10T12:52:11.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-07-10T10:42:30.340</Modified>
+      <Modified>2018-07-10T13:15:08.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\Views\FirstView.xbf">
       <PackagePath>Views\FirstView.xbf</PackagePath>
-      <Modified>2018-07-10T10:52:05.031</Modified>
+      <Modified>2018-07-10T13:15:08.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\Views\SecondView.xbf">
+      <PackagePath>Views\SecondView.xbf</PackagePath>
+      <Modified>2018-07-10T13:15:08.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -584,11 +588,11 @@
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-10T10:42:31.867</Modified>
+      <Modified>2018-07-10T13:15:09.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\Core\MvvmCrossUWPExample.exe">
       <PackagePath>MvvmCrossUWPExample.exe</PackagePath>
-      <Modified>2018-07-10T10:52:05.594</Modified>
+      <Modified>2018-07-10T13:15:10.316</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

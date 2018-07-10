@@ -461,3 +461,8 @@ E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\obj\x86\Debug\MvvmCross
 E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\obj\x86\Debug\MvvmCross.Binding.Uwp.pri.xml
 E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\obj\x86\Debug\MvvmCross.Uwp.pri.xml
 E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\obj\x86\Debug\MvvmCross.Platform.Uwp.pri.xml
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\obj\x86\Debug\Views\SecondView.g.i.cs
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\obj\x86\Debug\Views\SecondView.g.cs
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\obj\x86\Debug\Views\SecondView.xaml
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\obj\x86\Debug\Views\SecondView.xbf
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\Views\SecondView.xbf

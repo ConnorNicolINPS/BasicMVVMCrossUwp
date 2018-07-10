@@ -132,21 +132,23 @@ namespace MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[7];
             _typeNameTable[0] = "MvvmCross.Uwp.Views.MvxWindowsPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "MvvmCross.Uwp.Views.IMvxWindowsFrame";
             _typeNameTable[4] = "MvvmCross.Core.ViewModels.IMvxViewModel";
             _typeNameTable[5] = "MvvmCrossUWPExample.Views.FirstView";
+            _typeNameTable[6] = "MvvmCrossUWPExample.Views.SecondView";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[7];
             _typeTable[0] = typeof(global::MvvmCross.Uwp.Views.MvxWindowsPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::MvvmCross.Uwp.Views.IMvxWindowsFrame);
             _typeTable[4] = typeof(global::MvvmCross.Core.ViewModels.IMvxViewModel);
             _typeTable[5] = typeof(global::MvvmCrossUWPExample.Views.FirstView);
+            _typeTable[6] = typeof(global::MvvmCrossUWPExample.Views.SecondView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -183,6 +185,7 @@ namespace MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo
 
         private object Activate_0_MvxWindowsPage() { return new global::MvvmCross.Uwp.Views.MvxWindowsPage(); }
         private object Activate_5_FirstView() { return new global::MvvmCrossUWPExample.Views.FirstView(); }
+        private object Activate_6_SecondView() { return new global::MvvmCrossUWPExample.Views.SecondView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -225,6 +228,13 @@ namespace MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo
             case 5:   //  MvvmCrossUWPExample.Views.FirstView
                 userType = new global::MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MvvmCross.Uwp.Views.MvxWindowsPage"));
                 userType.Activator = Activate_5_FirstView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  MvvmCrossUWPExample.Views.SecondView
+                userType = new global::MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MvvmCross.Uwp.Views.MvxWindowsPage"));
+                userType.Activator = Activate_6_SecondView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
