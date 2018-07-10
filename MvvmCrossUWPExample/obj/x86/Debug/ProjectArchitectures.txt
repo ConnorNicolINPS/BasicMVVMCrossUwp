@@ -1,0 +1,2 @@
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\MvvmCrossUWPExample.Core.csproj;neutral
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\MvvmCrossUWPExample.csproj;x86

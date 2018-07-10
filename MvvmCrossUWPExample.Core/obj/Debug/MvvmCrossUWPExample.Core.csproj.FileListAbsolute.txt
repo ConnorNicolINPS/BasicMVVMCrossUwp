@@ -1,0 +1,21 @@
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\bin\Debug\MvvmCrossUWPExample.Core.dll
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\bin\Debug\MvvmCrossUWPExample.Core.pdb
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Binding.dll
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Core.dll
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Localization.dll
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Platform.dll
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.csproj.CoreCompileInputs.cache
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.csproj.CopyComplete
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.dll
+C:\Users\connor.nicol\source\repos\MvvmCrossUWPExample\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.pdb
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCrossUWPExample.Core.dll
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCrossUWPExample.Core.pdb
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Binding.dll
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Core.dll
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Localization.dll
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Platform.dll
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.csprojAssemblyReference.cache
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.csproj.CoreCompileInputs.cache
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.csproj.CopyComplete
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.dll
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.pdb
