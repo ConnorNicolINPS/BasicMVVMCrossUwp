@@ -70,22 +70,25 @@
     <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.binding\4.2.3\lib\win81\MvvmCross.Binding.dll">
+    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.binding\5.6.3\lib\uap10.0\MvvmCross.Binding.Uwp.dll">
+      <PackagePath>MvvmCross.Binding.Uwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.binding\5.6.3\lib\uap10.0\MvvmCross.Binding.dll">
       <PackagePath>MvvmCross.Binding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.binding\4.2.3\lib\win81\MvvmCross.Localization.dll">
+    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.binding\5.6.3\lib\uap10.0\MvvmCross.Localization.dll">
       <PackagePath>MvvmCross.Localization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.core\4.2.3\lib\uap\MvvmCross.Core.dll">
+    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.core\5.6.3\lib\uap10.0\MvvmCross.Core.dll">
       <PackagePath>MvvmCross.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.core\4.2.3\lib\uap\MvvmCross.WindowsUWP.dll">
-      <PackagePath>MvvmCross.WindowsUWP.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.core\5.6.3\lib\uap10.0\MvvmCross.Uwp.dll">
+      <PackagePath>MvvmCross.Uwp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.platform\4.2.3\lib\win81\MvvmCross.Platform.WindowsCommon.dll">
-      <PackagePath>MvvmCross.Platform.WindowsCommon.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.platform\5.6.3\lib\uap10.0\MvvmCross.Platform.Uwp.dll">
+      <PackagePath>MvvmCross.Platform.Uwp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.platform\4.2.3\lib\win81\MvvmCross.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.platform\5.6.3\lib\uap10.0\MvvmCross.Platform.dll">
       <PackagePath>MvvmCross.Platform.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
@@ -432,9 +435,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\connor.nicol\.nuget\packages\mvvmcross.core\4.2.3\lib\uap\MvvmCross.WindowsUWP\Properties\MvvmCross.WindowsUWP.rd.xml">
-      <PackagePath>MvvmCross.WindowsUWP\Properties\MvvmCross.WindowsUWP.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
