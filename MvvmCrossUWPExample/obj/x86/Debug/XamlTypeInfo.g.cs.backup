@@ -132,21 +132,23 @@ namespace MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
-            _typeNameTable[0] = "MvvmCross.WindowsUWP.Views.MvxWindowsPage";
+            _typeNameTable = new string[7];
+            _typeNameTable[0] = "MvvmCrossUWPExample.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "MvvmCross.WindowsUWP.Views.IMvxWindowsFrame";
-            _typeNameTable[4] = "MvvmCross.Core.ViewModels.IMvxViewModel";
-            _typeNameTable[5] = "MvvmCrossUWPExample.Views.FirstView";
+            _typeNameTable[3] = "MvvmCross.WindowsUWP.Views.MvxWindowsPage";
+            _typeNameTable[4] = "MvvmCross.WindowsUWP.Views.IMvxWindowsFrame";
+            _typeNameTable[5] = "MvvmCross.Core.ViewModels.IMvxViewModel";
+            _typeNameTable[6] = "MvvmCrossUWPExample.Views.FirstView";
 
-            _typeTable = new global::System.Type[6];
-            _typeTable[0] = typeof(global::MvvmCross.WindowsUWP.Views.MvxWindowsPage);
+            _typeTable = new global::System.Type[7];
+            _typeTable[0] = typeof(global::MvvmCrossUWPExample.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::MvvmCross.WindowsUWP.Views.IMvxWindowsFrame);
-            _typeTable[4] = typeof(global::MvvmCross.Core.ViewModels.IMvxViewModel);
-            _typeTable[5] = typeof(global::MvvmCrossUWPExample.Views.FirstView);
+            _typeTable[3] = typeof(global::MvvmCross.WindowsUWP.Views.MvxWindowsPage);
+            _typeTable[4] = typeof(global::MvvmCross.WindowsUWP.Views.IMvxWindowsFrame);
+            _typeTable[5] = typeof(global::MvvmCross.Core.ViewModels.IMvxViewModel);
+            _typeTable[6] = typeof(global::MvvmCrossUWPExample.Views.FirstView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,8 +183,9 @@ namespace MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MvxWindowsPage() { return new global::MvvmCross.WindowsUWP.Views.MvxWindowsPage(); }
-        private object Activate_5_FirstView() { return new global::MvvmCrossUWPExample.Views.FirstView(); }
+        private object Activate_0_MainPage() { return new global::MvvmCrossUWPExample.MainPage(); }
+        private object Activate_3_MvxWindowsPage() { return new global::MvvmCross.WindowsUWP.Views.MvxWindowsPage(); }
+        private object Activate_6_FirstView() { return new global::MvvmCrossUWPExample.Views.FirstView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -194,11 +197,10 @@ namespace MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  MvvmCross.WindowsUWP.Views.MvxWindowsPage
+            case 0:   //  MvvmCrossUWPExample.MainPage
                 userType = new global::MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MvxWindowsPage;
-                userType.AddMemberName("WrappedFrame");
-                userType.AddMemberName("ViewModel");
+                userType.Activator = Activate_0_MainPage;
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -210,21 +212,29 @@ namespace MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo
                 xamlType = new global::MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  MvvmCross.WindowsUWP.Views.IMvxWindowsFrame
+            case 3:   //  MvvmCross.WindowsUWP.Views.MvxWindowsPage
+                userType = new global::MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_MvxWindowsPage;
+                userType.AddMemberName("WrappedFrame");
+                userType.AddMemberName("ViewModel");
+                xamlType = userType;
+                break;
+
+            case 4:   //  MvvmCross.WindowsUWP.Views.IMvxWindowsFrame
                 userType = new global::MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 4:   //  MvvmCross.Core.ViewModels.IMvxViewModel
+            case 5:   //  MvvmCross.Core.ViewModels.IMvxViewModel
                 userType = new global::MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 5:   //  MvvmCrossUWPExample.Views.FirstView
+            case 6:   //  MvvmCrossUWPExample.Views.FirstView
                 userType = new global::MvvmCrossUWPExample.MvvmCrossUWPExample_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MvvmCross.WindowsUWP.Views.MvxWindowsPage"));
-                userType.Activator = Activate_5_FirstView;
+                userType.Activator = Activate_6_FirstView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
