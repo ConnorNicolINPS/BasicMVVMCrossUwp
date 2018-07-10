@@ -1,5 +1,6 @@
 ﻿namespace MvvmCrossUWPExample.Core
 {
+    using global::ViewModels;
     using MvvmCross.Core.ViewModels;
     using MvvmCross.Platform.IoC;
 
@@ -15,7 +16,7 @@
         public override void Initialize()
         {
             CreatableTypes().EndingWith("Service").AsInterfaces().RegisterAsLazySingleton();
-            RegisterAppStart<ViewModels.FirstViewModel>();
+            RegisterNavigationServiceAppStart<FirstViewModel>();
         }
     }
 }
