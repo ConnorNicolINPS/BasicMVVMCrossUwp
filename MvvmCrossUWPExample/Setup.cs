@@ -1,6 +1,7 @@
 ﻿namespace MvvmCrossUWPExample
 {
     using MvvmCross.Core.ViewModels;
+    using MvvmCross.Platform.Logging;
     using MvvmCross.Platform.Platform;
     using MvvmCross.Uwp.Platform;
     using Windows.UI.Xaml.Controls;
@@ -17,6 +18,8 @@
         public Setup(Frame rootFrame) : base(rootFrame)
         {
         }
+
+        protected override MvxLogProviderType GetDefaultLogProviderType() => MvxLogProviderType.None;
 
         /// <summary>
         /// Creates the application.

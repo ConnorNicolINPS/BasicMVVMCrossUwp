@@ -22,3 +22,4 @@ E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCros
 E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Core.pdb
 E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Localization.pdb
 E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\bin\Debug\MvvmCross.Platform.pdb
+E:\Dummy Test Apps\BasicMVVMCrossUwp\MvvmCrossUWPExample.Core\obj\Debug\MvvmCrossUWPExample.Core.csprojAssemblyReference.cache

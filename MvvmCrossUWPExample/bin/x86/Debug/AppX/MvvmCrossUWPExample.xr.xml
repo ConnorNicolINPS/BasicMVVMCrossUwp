@@ -5,7 +5,7 @@
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
-    <RootType FullName="MvvmCross.WindowsUWP.Views.MvxWindowsPage">
+    <RootType FullName="MvvmCross.Uwp.Views.MvxWindowsPage">
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
